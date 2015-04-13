@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+//Web views
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
+
+//Actions
+- (IBAction)btnSend1Pressed:(id)sender;
+- (IBAction)btnSend2Pressed:(id)sender;
 
 
 @end
